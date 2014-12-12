@@ -1,6 +1,6 @@
 //
 //  main.c
-//  c-stater
+//  c-starter
 //
 //  Created by Renato Camilio on 12/11/14.
 //  Copyright (c) 2014 Renato Camilio. All rights reserved.

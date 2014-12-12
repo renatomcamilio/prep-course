@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88AE2C701A3A70CC003A3564 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 88AE2C6F1A3A70CC003A3564 /* main.c */; };
+		8867EC641A3AB5470053E871 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8867EC631A3AB5470053E871 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		88AE2C6C1A3A70CC003A3564 /* c-stater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-stater"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88AE2C6F1A3A70CC003A3564 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8867EC631A3AB5470053E871 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		88AE2C6C1A3A70CC003A3564 /* c-starter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "c-starter"; path = "/Users/renato/prep-course-lighthouselabs/c-starter/build/Debug/c-starter"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,36 +38,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8867EC621A3AB5470053E871 /* c-starter */ = {
+			isa = PBXGroup;
+			children = (
+				8867EC631A3AB5470053E871 /* main.c */,
+			);
+			path = "c-starter";
+			sourceTree = "<group>";
+		};
 		88AE2C631A3A70CC003A3564 = {
 			isa = PBXGroup;
 			children = (
-				88AE2C6E1A3A70CC003A3564 /* c-stater */,
-				88AE2C6D1A3A70CC003A3564 /* Products */,
+				8867EC621A3AB5470053E871 /* c-starter */,
 			);
-			sourceTree = "<group>";
-		};
-		88AE2C6D1A3A70CC003A3564 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				88AE2C6C1A3A70CC003A3564 /* c-stater */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		88AE2C6E1A3A70CC003A3564 /* c-stater */ = {
-			isa = PBXGroup;
-			children = (
-				88AE2C6F1A3A70CC003A3564 /* main.c */,
-			);
-			path = "c-stater";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88AE2C6B1A3A70CC003A3564 /* c-stater */ = {
+		88AE2C6B1A3A70CC003A3564 /* c-starter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88AE2C731A3A70CC003A3564 /* Build configuration list for PBXNativeTarget "c-stater" */;
+			buildConfigurationList = 88AE2C731A3A70CC003A3564 /* Build configuration list for PBXNativeTarget "c-starter" */;
 			buildPhases = (
 				88AE2C681A3A70CC003A3564 /* Sources */,
 				88AE2C691A3A70CC003A3564 /* Frameworks */,
@@ -77,9 +68,9 @@
 			);
 			dependencies = (
 			);
-			name = "c-stater";
+			name = "c-starter";
 			productName = "c-stater";
-			productReference = 88AE2C6C1A3A70CC003A3564 /* c-stater */;
+			productReference = 88AE2C6C1A3A70CC003A3564 /* c-starter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +87,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88AE2C671A3A70CC003A3564 /* Build configuration list for PBXProject "c-stater" */;
+			buildConfigurationList = 88AE2C671A3A70CC003A3564 /* Build configuration list for PBXProject "c-starter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -104,11 +95,11 @@
 				en,
 			);
 			mainGroup = 88AE2C631A3A70CC003A3564;
-			productRefGroup = 88AE2C6D1A3A70CC003A3564 /* Products */;
+			productRefGroup = 88AE2C631A3A70CC003A3564;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88AE2C6B1A3A70CC003A3564 /* c-stater */,
+				88AE2C6B1A3A70CC003A3564 /* c-starter */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AE2C701A3A70CC003A3564 /* main.c in Sources */,
+				8867EC641A3AB5470053E871 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,21 +193,21 @@
 		88AE2C741A3A70CC003A3564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "c-starter";
 			};
 			name = Debug;
 		};
 		88AE2C751A3A70CC003A3564 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "c-starter";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88AE2C671A3A70CC003A3564 /* Build configuration list for PBXProject "c-stater" */ = {
+		88AE2C671A3A70CC003A3564 /* Build configuration list for PBXProject "c-starter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88AE2C711A3A70CC003A3564 /* Debug */,
@@ -225,7 +216,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88AE2C731A3A70CC003A3564 /* Build configuration list for PBXNativeTarget "c-stater" */ = {
+		88AE2C731A3A70CC003A3564 /* Build configuration list for PBXNativeTarget "c-starter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88AE2C741A3A70CC003A3564 /* Debug */,

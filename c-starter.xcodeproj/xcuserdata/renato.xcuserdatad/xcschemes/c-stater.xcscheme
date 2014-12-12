@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88AE2C6B1A3A70CC003A3564"
-               BuildableName = "c-stater"
-               BlueprintName = "c-stater"
-               ReferencedContainer = "container:c-stater.xcodeproj">
+               BuildableName = "c-starter"
+               BlueprintName = "c-starter"
+               ReferencedContainer = "container:c-starter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AE2C6B1A3A70CC003A3564"
-            BuildableName = "c-stater"
-            BlueprintName = "c-stater"
-            ReferencedContainer = "container:c-stater.xcodeproj">
+            BuildableName = "c-starter"
+            BlueprintName = "c-starter"
+            ReferencedContainer = "container:c-starter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AE2C6B1A3A70CC003A3564"
-            BuildableName = "c-stater"
-            BlueprintName = "c-stater"
-            ReferencedContainer = "container:c-stater.xcodeproj">
+            BuildableName = "c-starter"
+            BlueprintName = "c-starter"
+            ReferencedContainer = "container:c-starter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88AE2C6B1A3A70CC003A3564"
-            BuildableName = "c-stater"
-            BlueprintName = "c-stater"
-            ReferencedContainer = "container:c-stater.xcodeproj">
+            BuildableName = "c-starter"
+            BlueprintName = "c-starter"
+            ReferencedContainer = "container:c-starter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
