@@ -232,6 +232,7 @@
 				88AE2C751A3A70CC003A3564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
