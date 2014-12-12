@@ -9,7 +9,10 @@
 #include <stdio.h>
 
 
-int main(int argc, const char * argv[]) {
+
+int Fuzz, Bizz, Nezz;
+
+void showFizzBuzz() {
     for (int num = 0; num <= 100; num++) {
         if (num % 3 == 0 && num % 5 == 0) {
             printf("FizzBuzz\n");
@@ -21,6 +24,37 @@ int main(int argc, const char * argv[]) {
             printf("%d\n", num);
         }
     }
+}
+
+void home() {
+    int option;
+    
+    printf("------------------\n");
+    printf("Hey there! Choose a program:\n\n");
+    printf("[1] FizzBuzz\n");
+    printf("[2] FuzzBizzNezz\n");
+    printf("------------------\n");
+    
+    scanf("%d", &option);
+    
+    switch (option) {
+        case 1:
+            showFizzBuzz();
+            home();
+            break;
+        case 2:
+            puts("under development :)");
+            home();
+            break;
+        default:
+            puts("Invalid option, please choose one valid option from the list");
+            home();
+            break;
+    }
+}
+
+int main(int argc, const char * argv[]) {
+    home();
     
     return 0;
 }

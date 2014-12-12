@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8867EC631A3AB5470053E871 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		88AE2C6C1A3A70CC003A3564 /* c-starter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "c-starter"; path = "/Users/renato/prep-course-lighthouselabs/c-starter/build/Debug/c-starter"; sourceTree = "<absolute>"; };
+		8867EC651A3AB5FD0053E871 /* c-starter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-starter"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				8867EC621A3AB5470053E871 /* c-starter */,
+				8867EC651A3AB5FD0053E871 /* c-starter */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 			);
 			name = "c-starter";
 			productName = "c-stater";
-			productReference = 88AE2C6C1A3A70CC003A3564 /* c-starter */;
+			productReference = 8867EC651A3AB5FD0053E871 /* c-starter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
