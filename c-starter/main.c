@@ -10,8 +10,6 @@
 
 
 
-int Fuzz, Bizz, Nezz;
-
 void showFizzBuzz() {
     for (int num = 0; num <= 100; num++) {
         if (num % 3 == 0 && num % 5 == 0) {
@@ -26,13 +24,39 @@ void showFizzBuzz() {
     }
 }
 
+void showFuzzBizzNezz() {
+    int fuzz, bizz, nezz;
+    
+    printf("Ok, firstly set 'Fuzz' value: ");
+    scanf("%d", &fuzz);
+    
+    printf("Now set 'Bizz' value: ");
+    scanf("%d", &bizz);
+    
+    printf("And finally, 'Nezz' value: ");
+    scanf("%d", &nezz);
+    
+    for (int num = 1; num <= nezz; num++) {
+        if (num % fuzz == 0 && num % bizz == 0) {
+            printf("FuzzBizz\n");
+        } else if (num % fuzz == 0) {
+            printf("Fuzz\n");
+        } else if (num % bizz == 0) {
+            printf("Bizz\n");
+        } else {
+            printf("%d\n", num);
+        }
+    }
+}
+
 void home() {
     int option;
     
     printf("------------------\n");
     printf("Hey there! Choose a program:\n\n");
     printf("[1] FizzBuzz\n");
-    printf("[2] FuzzBizzNezz\n");
+    printf("[2] FuzzBizzNezz\n\n");
+    printf("[0] Exit\n");
     printf("------------------\n");
     
     scanf("%d", &option);
@@ -43,8 +67,11 @@ void home() {
             home();
             break;
         case 2:
-            puts("under development :)");
+            showFuzzBizzNezz();
             home();
+            break;
+        case 0:
+            return;
             break;
         default:
             puts("Invalid option, please choose one valid option from the list");
